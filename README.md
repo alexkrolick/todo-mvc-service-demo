@@ -6,10 +6,14 @@ Demo of [TodoMVC Service](https://github.com/alexkrolick/todo-mvc-service) using
 
 ## Demo
 
+https://alexkrolick.github.io/todo-mvc-service-demo/
+
+
 ```
 npm install
 npm run start
 ```
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
