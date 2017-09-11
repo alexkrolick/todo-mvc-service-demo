@@ -23988,6 +23988,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = _TodoMVCService2.default;
 
+
+module.exports = _TodoMVCService2.default; // for UMD/CommonJS builds
+
 /***/ }),
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28147,4 +28150,4 @@ registerValidSW(swUrl);}}).catch(function(){console.log('No internet connection 
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.0afa4bdd.js.map
+//# sourceMappingURL=main.ff8280c1.js.map
