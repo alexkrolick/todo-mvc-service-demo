@@ -1,0 +1,26 @@
+{
+  "name": "todo-mvc-service-demo",
+  "description": "demo of todo-mvc-service using create-react-app",
+  "repository": "https://github.com/alexkrolick/todo-mvc-service-demo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "todomvc",
+    "mock",
+    "demo",
+    "react"
+  ],
+  "author": "Alex Krolick",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "todo-mvc-service": "0.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

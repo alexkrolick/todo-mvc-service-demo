@@ -1,0 +1,42 @@
+.Todo {
+  padding: 0.5em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.TodoTitle {
+  text-align: left;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 0.5em;
+}
+
+.TodoDate {
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 85%;
+  padding: 0.5em;
+  color: lightslategray;
+}
+
+.DeleteTodoBtn,
+.EditTodoBtn,
+.ToggleTodoBtn {
+  padding: 0.5em;
+  flex-shrink: 0;
+  color: lightslategray;
+  cursor: pointer;
+}
+
+.Todo.complete .TodoTitle {
+  color: lightgray;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.Todo.complete .ToggleTodoBtn {
+  color: lightgray;
+}

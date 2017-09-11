@@ -1,0 +1,32 @@
+.AddTodo {
+  display: flex;
+  padding: 0;
+}
+
+.AddTodoBtn {
+  flex-shrink: 0;
+  font-size: inherit;
+  padding: 1em 1em;
+  color: lightslategray;
+  background: white;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.AddTodo:disabled {
+  cursor: not-allowed;
+}
+
+.AddTodoInput {
+  font-size: inherit;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 1em 1em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-sizing: border-box;
+}
